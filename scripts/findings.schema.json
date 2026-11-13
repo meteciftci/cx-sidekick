@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["summary", "findings"],
+  "properties": {
+    "summary": {"type": "string"},
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["severity", "title", "file", "line", "scenario", "confidence"],
+        "properties": {
+          "severity": {"type": "string", "enum": ["P1", "P2", "P3"]},
+          "title": {"type": "string"},
+          "file": {"type": "string"},
+          "line": {"type": "integer"},
+          "scenario": {"type": "string"},
+          "confidence": {"type": "string", "enum": ["certain", "possible"]}
+        }
+      }
+    }
+  }
+}

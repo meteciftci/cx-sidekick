@@ -1,0 +1,14 @@
+{
+  "name": "cx-sidekick",
+  "displayName": "cx sidekick",
+  "version": "0.1.0",
+  "description": "Use the OpenAI Codex CLI as a background sidekick from Claude Code: delegate coding tasks to named parallel sessions, resume them with context, and get independent audit and adversarial reviews as structured findings.",
+  "author": {
+    "name": "meteciftci",
+    "url": "https://github.com/meteciftci"
+  },
+  "homepage": "https://github.com/meteciftci/cx-sidekick",
+  "repository": "https://github.com/meteciftci/cx-sidekick",
+  "license": "MIT",
+  "keywords": ["codex", "codex-cli", "delegation", "code-review", "adversarial-review", "multi-agent", "second-opinion"]
+}

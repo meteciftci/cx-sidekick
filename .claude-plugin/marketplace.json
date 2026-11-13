@@ -1,0 +1,14 @@
+{
+  "name": "cx-sidekick",
+  "description": "Marketplace for the cx-sidekick plugin",
+  "owner": {
+    "name": "meteciftci"
+  },
+  "plugins": [
+    {
+      "name": "cx-sidekick",
+      "source": "./",
+      "description": "Use the OpenAI Codex CLI as a background sidekick from Claude Code: delegate, resume, audit and challenge."
+    }
+  ]
+}
